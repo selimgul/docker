@@ -1,0 +1,14 @@
+/home/selim/Documents/docker/dotnetcore/demo/bin/Debug/netcoreapp2.2/demo.deps.json
+/home/selim/Documents/docker/dotnetcore/demo/bin/Debug/netcoreapp2.2/demo.runtimeconfig.json
+/home/selim/Documents/docker/dotnetcore/demo/bin/Debug/netcoreapp2.2/demo.runtimeconfig.dev.json
+/home/selim/Documents/docker/dotnetcore/demo/bin/Debug/netcoreapp2.2/demo.dll
+/home/selim/Documents/docker/dotnetcore/demo/bin/Debug/netcoreapp2.2/demo.pdb
+/home/selim/Documents/docker/dotnetcore/demo/obj/Debug/netcoreapp2.2/demo.csprojAssemblyReference.cache
+/home/selim/Documents/docker/dotnetcore/demo/obj/Debug/netcoreapp2.2/demo.csproj.CoreCompileInputs.cache
+/home/selim/Documents/docker/dotnetcore/demo/obj/Debug/netcoreapp2.2/demo.RazorAssemblyInfo.cache
+/home/selim/Documents/docker/dotnetcore/demo/obj/Debug/netcoreapp2.2/demo.RazorAssemblyInfo.cs
+/home/selim/Documents/docker/dotnetcore/demo/obj/Debug/netcoreapp2.2/demo.AssemblyInfoInputs.cache
+/home/selim/Documents/docker/dotnetcore/demo/obj/Debug/netcoreapp2.2/demo.AssemblyInfo.cs
+/home/selim/Documents/docker/dotnetcore/demo/obj/Debug/netcoreapp2.2/demo.RazorTargetAssemblyInfo.cache
+/home/selim/Documents/docker/dotnetcore/demo/obj/Debug/netcoreapp2.2/demo.dll
+/home/selim/Documents/docker/dotnetcore/demo/obj/Debug/netcoreapp2.2/demo.pdb

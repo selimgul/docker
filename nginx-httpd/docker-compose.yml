@@ -1,0 +1,28 @@
+version: "3"
+
+services:
+  webserver1:
+    image: httpd
+    networks: 
+    - selim-network
+    volumes:
+    - "/home/selim/Documents/docker/nginx-httpd/webserver1/:/usr/local/apache2/htdocs/"
+
+  webserver2:
+    image: httpd
+    networks: 
+    - selim-network
+    volumes:
+    - "/home/selim/Documents/docker/nginx-httpd/webserver2/:/usr/local/apache2/htdocs/"
+  
+  loadbalancer:
+    image: nginx
+    ports: 
+    - "5555:80"
+    networks: 
+    - selim-network
+    volumes: 
+    - "/home/selim/Documents/docker/nginx-httpd/nginx/nginx.conf:/etc/nginx/nginx.conf"
+
+networks: 
+  selim-network:

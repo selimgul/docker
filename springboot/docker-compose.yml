@@ -1,7 +1,0 @@
-version: "3"
-
-services:
-  springboot1:
-    image: selim-springboot:latest
-    ports: 
-    - "9090:8080"   

@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  nodejs:
+    image: selim-nodejs:latest
+    ports: 
+    - "3333:2222"   

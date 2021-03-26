@@ -1,17 +1,10 @@
 const http = require('http');
-const url  = require('url');
+const os = require("os");
 
-var server = http.createServer(function(req, resp) {
+const requestListener = function (req, res) {
+  res.writeHead(200);
+  res.end(os.hostname());
+}
 
-    var q = url.parse(req.url, true);
-
-    resp.writeHead(200, {"Content-Type": "text/plain"});
-    resp.end("Hi: " + q.query.name);
-
-});
-
-var port = 8080;
-server.listen(port);
-
-console.log("Server running at http://localhost:%d", port);
-
+const server = http.createServer(requestListener);
+server.listen(2222);

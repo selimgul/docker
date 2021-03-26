@@ -1,0 +1,7 @@
+version: "3"
+
+services:
+  dotnetcore1:
+    image: selim-dotnetcore:latest
+    ports: 
+    - "8888:80"   
